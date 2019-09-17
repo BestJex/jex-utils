@@ -171,6 +171,13 @@ public class ExcelUtils {
 
         // 内容
         contentStyle = workbook.createCellStyle();
+        //设置自动换行
+        contentStyle.setWrapText(true);
+        //水平居中
+        contentStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
+        //垂直居中
+        contentStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
+
         XSSFFont contentFont = workbook.createFont();
         contentFont.setFontName("宋体");
         contentFont.setFontHeightInPoints((short) 10);// 设置字体大小
