@@ -13,7 +13,7 @@
         <project.build.name>com.jex.jex-utils</project.build.name>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <poi.version>3.14</poi.version>
+        <poi.version>4.1.1</poi.version>
         <log4j2.version>2.3</log4j2.version>
     </properties>
 
